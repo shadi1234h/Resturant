@@ -1,9 +1,9 @@
 public class Food {
-    String name;
-    String category;
-    String incredients;
-    double price;
-    String notes;
+     private String name;
+     private String category;
+     private String incredients;
+    private double price;
+    private String notes;
 
     public Food(String category, String incredients, String name, double price,String notes) {
         this.category = category;
