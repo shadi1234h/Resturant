@@ -3,6 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 Order o=new Order("fast food","floar,sult,water,tomato,chesse","pizza",8,"");
+Warehouse warehouse=new Warehouse(1000);
+        int maxcapacity = warehouse.maxcapacity;
+        System.out.println(maxcapacity);
 
     }
 }
