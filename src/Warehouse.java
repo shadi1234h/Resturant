@@ -10,10 +10,10 @@ public class Warehouse {
            throw new RuntimeException("failed");
         }
          K.put(food,0);
+        K.put(food,5);
     }
 
     public Warehouse(int maxcapacity) {
         this.maxcapacity = maxcapacity;
-
     }
 }
